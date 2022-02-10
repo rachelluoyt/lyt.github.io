@@ -23,8 +23,8 @@ Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen 
 
 ###### Results
 
-| Configuration| In-Domaain| Out-of-Domain|
-|Size| #Tkns|EM|F1|EM|F1|
+|\2. Configuration|\2. In-Domaain|\2. Out-of-Domain|
+|Size  | #Tkns| EM|F1|EM|F1|
 |:-------------|:------------------|:------|
 |small|1| 17.86 | 56.88|2.27|25.17
 
