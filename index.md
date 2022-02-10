@@ -22,7 +22,7 @@ Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen 
 
 # Datasets
 - For GPT-2 Table-to-Text generations
-  - Train on **[WebNLG](./https://aclanthology.org/W16-6626/).**
+  - Train on **[WebNLG](https://aclanthology.org/W16-6626/).**
 
 <!--
 > This is a blockquote following a header.
