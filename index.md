@@ -23,6 +23,24 @@ Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen 
 
 ###### Results
 
+<table>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+  <tr>
+    <td colspan="2">Sum: $180</td>
+  </tr>
+</table>
+
 |\2. Configuration|\2. In-Domaain|\2. Out-of-Domain|
 |Size  | #Tkns| EM|F1|EM|F1|
 |:-------------|:------------------|:------|
