@@ -19,9 +19,27 @@ Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen 
   - Test on **[DuoRC](https://arxiv.org/abs/1804.07927).**
   - Evaluate with **[EM/F1](https://arxiv.org/abs/1910.09753).**
 
+# Methods & Hyperparameters
+In our work, we will apply both prompt and prefix tuning on T5 and GPT-2 models. Our experimental design spans two dimensions for each model and tuning method. 
 
+1. We measure the robustness of tuning with respect to different model sizes, given the same prompt length.
+2. We measure the robustness of tuning with respect to different prompt lengths, given the same model size. 
 
-###### Results
+We train both T5 and GPT-2 models with sizes range from small, base and large, and with prompt lengths from 1, 5, 10, 20 and 50. The prompts and prefixes are initialized from vocabulary.
+
+- T5
+  - Optimizor: Adafactor
+  - Learning Rate: 0.001
+  - Scheduler: None 
+  - Clip Threshold: 1.0
+  - Epochs: 4
+
+- GPT-2
+  - Optimizor: AdamW
+  - Learning Rate: 0.00005
+  - Scheduler: Linear
+
+# Results
 
 <table>
   <tr>
