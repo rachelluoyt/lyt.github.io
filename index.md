@@ -30,13 +30,50 @@ Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen 
     <th colspan="2">Out-of-Domain</th>
   </tr>
   <tr>
-    <td>Small</td>
+    <th>Size</th>
+    <th>#Tkns</th>
+    <th>EM</th>
+    <th>F1</th>
+    <th>EM</th>
+    <th>F1</th>
+  </tr>
+  <tr>
+    <td rowspan="5">Small</td>
     <td>1</td>
     <td>17.86</td>
     <td>56.88</td>
     <td>2.27</td>
     <td>25.17</td>
   </tr>
+  <tr>
+    <td>5</td>
+    <td>21.52</td>
+    <td>55.61</td>
+    <td>2.40</td>
+    <td>21.48</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>21.97</td>
+    <td>57.19</td>
+    <td>3.06</td>
+    <td>23.60</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>27.72</td>
+    <td>61.08</td>
+    <td>3.53</td>
+    <td>24.32</td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>24.34</td>
+    <td>60.05</td>
+    <td>3.60</td>
+    <td>24.76</td>
+  </tr>
+ 
 </table>
 
 |\2. Configuration|\2. In-Domaain|\2. Out-of-Domain|
