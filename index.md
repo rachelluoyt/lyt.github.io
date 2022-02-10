@@ -20,9 +20,16 @@ NLP models have recently achieved outstanding performances and are thus gained p
 
 Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen language models to perform downstream tasks. Robustness reflects models' resilience of output under a change or noise in the input. In this project, we analyze the robustness of natural language models using various tuning methods with respect to a domain shift (i.e. training on a domain but evaluating on out-of-domain data). We apply both prompt tuning and prefix tuning on T5 models for reading comprehension (i.e. question-answering) and GPT-2 models for table-to-text generation.
 
-# Datasets
-- For GPT-2 Table-to-Text generations
+# Datasets & Evaluation Metrics
+- GPT-2 Table-to-Text generations
   - Train on **[WebNLG](https://aclanthology.org/W16-6626/).**
+  - Test on **[DART](https://arxiv.org/abs/2007.02871).**
+  - Evaluate with **[BLEU](https://aclanthology.org/P02-1040.pdf).**
+
+- T5 Qustion & Answering
+  - Train on **[SQuAD](https://arxiv.org/abs/1606.05250).**
+  - Test on **[DuoRC](https://arxiv.org/abs/1804.07927).**
+  - Evaluate with **[EM/F1](https://arxiv.org/abs/1910.09753).**
 
 <!--
 > This is a blockquote following a header.
@@ -69,6 +76,8 @@ end
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
+
+<!--
 
 ### There's a horizontal rule below this.
 
@@ -134,3 +143,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 The final element.
 ```
 
+-->
