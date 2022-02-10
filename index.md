@@ -43,7 +43,7 @@ Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen 
     <td>17.86</td>
     <td>56.88</td>
     <td>2.27</td>
-    <td>25.17</td>
+    <td style="font-weight:bold">25.17</td>
   </tr>
   <tr>
     <td>5</td>
@@ -76,11 +76,11 @@ Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen 
   
   <tr>
     <td rowspan="5">Base</td>
-    <td>1</td>
+    <td style="font-weight:bold">1</td>
     <td>55.29</td>
-    <td>79.84</td>
-    <td>30.71</td>
-    <td>49.74</td>
+    <td style="font-weight:bold">79.84</td>
+    <td style="font-weight:bold">30.71</td>
+    <td style="font-weight:bold">49.74</td>
   </tr>
   <tr>
     <td>5</td>
@@ -98,24 +98,56 @@ Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen 
   </tr>
   <tr>
     <td>20</td>
-    <td>55.74</td>
-    <td>61.08</td>
-    <td>3.53</td>
-    <td>24.32</td>
+    <td style="font-weight:bold">55.73</td>
+    <td>75.95</td>
+    <td>25.98</td>
+    <td>42.38</td>
   </tr>
   <tr>
     <td>50</td>
-    <td>24.34</td>
-    <td>60.05</td>
-    <td>3.60</td>
-    <td>24.76</td>
+    <td>49.29</td>
+    <td>74.23</td>
+    <td>16.06</td>
+    <td>38.11</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="5">Large</td>
+    <td style="font-weight:bold">1</td>
+    <td style="font-weight:bold">55.65</td>
+    <td style="font-weight:bold">82.01</td>
+    <td style="font-weight:bold">49.43</td>
+    <td style="font-weight:bold">63.77</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>49.72</td>
+    <td>78.89</td>
+    <td>43.84</td>
+    <td>61.08</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>46.87</td>
+    <td>78.33</td>
+    <td>46.77</td>
+    <td>62.11</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>33.67</td>
+    <td>73.61</td>
+    <td>32.91</td>
+    <td>56.63</td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>40.90</td>
+    <td>76.35</td>
+    <td>38.97</td>
+    <td>59.32</td>
   </tr>
  
 </table>
-
-|\2. Configuration|\2. In-Domaain|\2. Out-of-Domain|
-|Size  | #Tkns| EM|F1|EM|F1|
-|:-------------|:------------------|:------|
-|small|1| 17.86 | 56.88|2.27|25.17
 
 
