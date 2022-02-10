@@ -39,7 +39,7 @@ Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen 
   </tr>
   <tr>
     <td rowspan="5">Small</td>
-    <td>1</td>
+    <td style="font-weight:bold">1</td>
     <td>17.86</td>
     <td>56.88</td>
     <td>2.27</td>
@@ -61,7 +61,44 @@ Prompt tuning and prefix tuning are two effective mechanisms to leverage frozen 
   </tr>
   <tr>
     <td>20</td>
-    <td>27.72</td>
+    <td style="font-weight:bold">27.72</td>
+    <td style="font-weight:bold">61.08</td>
+    <td>3.53</td>
+    <td>24.32</td>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>24.34</td>
+    <td>60.05</td>
+    <td style="font-weight:bold">3.60</td>
+    <td>24.76</td>
+  </tr>
+  
+  <tr>
+    <td rowspan="5">Base</td>
+    <td>1</td>
+    <td>55.29</td>
+    <td>79.84</td>
+    <td>30.71</td>
+    <td>49.74</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>47.70</td>
+    <td>72.44</td>
+    <td>18.79</td>
+    <td>36.13</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>50.09</td>
+    <td>73.32</td>
+    <td>21.99</td>
+    <td>39.44</td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>55.74</td>
     <td>61.08</td>
     <td>3.53</td>
     <td>24.32</td>
