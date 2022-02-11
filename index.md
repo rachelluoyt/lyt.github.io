@@ -27,7 +27,7 @@ In our work, we will apply both prompt and prefix tuning on T5 and GPT-2 models.
 
 We train both T5 and GPT-2 models with sizes range from small, base and large, and with prompt lengths from 1, 5, 10, 20 and 50. The prompts and prefixes are initialized from vocabulary.
 
-### Experiment Setup
+### Model Setup
 - T5
   - Optimizor: Adafactor
   - Learning Rate: 0.001
