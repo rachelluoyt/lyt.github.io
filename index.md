@@ -27,6 +27,7 @@ In our work, we will apply both prompt and prefix tuning on T5 and GPT-2 models.
 
 We train both T5 and GPT-2 models with sizes range from small, base and large, and with prompt lengths from 1, 5, 10, 20 and 50. The prompts and prefixes are initialized from vocabulary.
 
+### Experiment Setup
 - T5
   - Optimizor: Adafactor
   - Learning Rate: 0.001
@@ -168,4 +169,10 @@ We train both T5 and GPT-2 models with sizes range from small, base and large, a
  
 </table>
 
+# Discussion
+### Advantages of Prefix/Prompt Tuning
+Prefix/prompt tuning will only train on a small subset of parameters and freeze other parameters, which significantly reduces training costs. Suppose we have many individual tasks but share the same model structure. In that case, prefix/prompt tuning could maintain modularity and save time/space by only adding and deleting prefix/prompt for each task. Beyond that, the inference is more efficient with prefix/prompt settings. Instead of having different models and calling forward multiple times, we can do a single forward pass with batches.
+
+### Limitation in our project
+Because of time limitations, we do not perform ablation tests to examine the internal representation of prefix/prompt tokens. However, this is another exciting topic we want to explore in the future. For example, if we could find some patterns in the space of prefix/prompt tokens, we could directly add a prefix/prompt to a pretrained model when a new task comes. This would allow us to obtain a model which has comparable performance to fine-tuned models, but with no extra costs.
 
